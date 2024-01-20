@@ -1,0 +1,22 @@
+#flex-box {font-family: 'Grape Nuts', cursive ;
+           font-size: larger;
+           color:#ffffff;
+           padding: 15px;
+           /*display flex*/
+           display: flex;
+         /*  justify-content: space-around; */
+           /* flex-direction: column;*/
+             /*dong 8 = chieu doc*/
+           /* flex-direction: row; */
+             /* dong 10 = chieu ngang */
+          /* flex-wrap: wrap; */
+             /* wrap = xuong dong khi day chu
+                nowrap = ko xuong, cat dong 😏*/
+           flex-flow: column wrap ;
+} 
+
+.item{
+     width: 1500px;
+     height:100px;
+     background-color: blue;
+}
