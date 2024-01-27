@@ -1,0 +1,37 @@
+*{font-family: 'Grape Nuts', cursive ;}
+
+nav,header,footer,aside,article{border: 1px solid black}
+
+body {display: flex;}
+
+nav {background-color:white;
+     width: 30%;}
+
+main {width: 70%;
+      height: 600px;
+      display:flex;
+      flex-direction: column;}
+
+header {background-color:cadetblue;
+        height: 100px;}
+
+article {background-color: aquamarine;
+         min-height: 400px;
+         width: 100%;}
+
+footer {background-color:blueviolet;
+        height:100px;}
+
+aside {background-color: blanchedalmond;
+       min-height: 100%;}
+
+.content {/* display: flex; */
+          /* flex-flow: row nowrap; */
+          height: 500px;
+          /* align-items: stretch;*/}
+.content .left {width: 80%;
+                display: flex;
+                flex-flow: column wrap;}
+
+.content .right {width:20%;
+                 max-height: 500px;}

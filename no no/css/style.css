@@ -11,7 +11,7 @@
              /* dong 10 = chieu ngang */
           /* flex-wrap: wrap; */
              /* wrap = xuong dong khi day chu
-                nowrap = ko xuong, cat dong 😏*/
+                nowrap = ko xuong, keo dong😏*/
            flex-flow: column wrap ;
 } 
 
