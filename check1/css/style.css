@@ -1,0 +1,7 @@
+/*.sandwich {width: 270px;
+           height: 600px;}
+.sandwich2 {width: 270px;
+            height: 600px;}*/
+.all{flex-flow: row wrap;
+     justify-content: space-around;
+     display: flex;}
