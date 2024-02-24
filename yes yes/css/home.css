@@ -1,0 +1,74 @@
+main {margin: 0 350px ;
+      padding: 0;}
+
+#home{margin: 0 100px;}
+
+#about { font-family: 'Grape Nuts', cursive;}
+
+#about .title, #member .title, #contact .title {
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+              }
+
+#about .content {
+    text-align: center;
+    font-size: 19px;
+}
+
+#member .grid-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    justify-content: center;         
+}
+
+#member .grid-list img {
+    border-radius: 15px;
+}
+
+#contact form {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    margin: 5px 0;
+    background-color: transparent;
+    border: 1px solid cyan;
+    outline: none;
+    color:blueviolet;
+}
+
+#contact button {
+    background-color:blueviolet;
+    border: none;
+    text-transform: lowercase;
+    font-weight: 100;
+    padding: 4px 9px;
+    border-radius: 4px;
+
+}
+
+#contact button:hover {
+    border: 1px solid cyan;
+}
+
+#contact .map {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.map img {width: 100%;}
+
+.map .subtext {
+    text-align: center;
+    margin: 10px 0;
+    text-transform: lowercase;
+    
+}
